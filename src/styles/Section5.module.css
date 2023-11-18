@@ -1,0 +1,51 @@
+/* Section5.module.css */
+
+.section {
+    background-color: #F8F9FA;
+    padding: 50px 60px 0 60px;
+  }
+  
+  .containerHeading {
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mainFlex {
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    text-align: start;
+  }
+  
+  .innerBox p:nth-child(1) {
+    font-weight: bold;
+  }
+  
+  .innerBox p:nth-child(2) {
+    font-weight: 500;
+  }
+  
+  .innerBox p:nth-child(3) {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .mainFlex img:nth-child(2) {
+    align-self: flex-start;
+    margin-top: 50px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .mainFlex {
+      flex-direction: column;
+    }
+  
+    .mainFlex img:nth-child(2) {
+      margin-top: 20px;
+    }
+  }
+  

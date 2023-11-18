@@ -1,0 +1,59 @@
+/* Section2.module.css */
+
+.section {
+    text-align: start;
+  }
+  
+  .boxContainer {
+    padding: 10px;
+  }
+  
+  .box {
+    width: 100%;
+    padding: 20px 30px;
+    background: #FCF8FF;
+    border-radius: 10px;
+    margin-top: 40px;
+  
+    div {
+      margin-bottom: 20px;
+    }
+  
+    div:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media screen and (max-width: 48em) {
+    /* Styles for screens with a maximum width of 48em (768px) */
+    .boxContainer {
+      padding: 5px;
+    }
+  
+    .box {
+      padding: 15px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 48.0625em) and (max-width: 64em) {
+    /* Styles for screens with a width between 48.0625em (769px) and 64em (1024px) */
+    .boxContainer {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 64.0625em) and (max-width: 80em) {
+    /* Styles for screens with a width between 64.0625em (1025px) and 80em (1280px) */
+    .boxContainer {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 80.0625em) {
+    /* Styles for screens with a minimum width of 80.0625em (1281px) */
+    .boxContainer {
+      padding: 20px;
+    }
+  }
+  

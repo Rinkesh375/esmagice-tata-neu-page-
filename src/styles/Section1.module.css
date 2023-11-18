@@ -1,0 +1,99 @@
+/* Section1.module.css */
+
+.section {
+    text-align: start;
+  }
+  
+  .container {
+    width: 100%;
+    gap: 16px;
+    text-align: start;
+  }
+  
+  .heading1 {
+    text-align: start;
+    margin-top: 27px;
+  }
+  
+  span {
+    color: #FF0096;
+  }
+  
+  .flex1 {
+    text-align: start;
+    margin-top: 30.5px;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .flex1 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .flex1 .child {
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .flex2 {
+    margin-bottom: 48px;
+  }
+  
+  .btn {
+    background: var(--1, #8800EC);
+    color: white;
+    border-radius: 3px;
+    height: 45px;
+    padding: 8px 16px;
+    text-align: start;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    opacity: 0.9;
+  }
+  
+  @media screen and (max-width: 48em) {
+    /* Styles for screens with a maximum width of 48em (768px) */
+    .container {
+      justify-content: center;
+    }
+  
+    .flex1 {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .flex1 img {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 48.0625em) and (max-width: 64em) {
+    /* Styles for screens with a width between 48.0625em (769px) and 64em (1024px) */
+    .container {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (min-width: 64.0625em) and (max-width: 80em) {
+    /* Styles for screens with a width between 64.0625em (1025px) and 80em (1280px) */
+    .container {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (min-width: 80.0625em) {
+    /* Styles for screens with a minimum width of 80.0625em (1281px) */
+    .container {
+      justify-content: space-between;
+    }
+  
+    .flex1 {
+      margin-bottom: 0;
+    }
+  }
+  

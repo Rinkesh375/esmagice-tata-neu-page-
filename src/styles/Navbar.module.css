@@ -1,0 +1,99 @@
+/* Navbar.module.css */
+
+.container1 {
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .container2 {
+    gap: 24px;
+  }
+  
+  .innerflex {
+    position: relative;
+  }
+  
+  .innerflex img {
+    position: absolute;
+    left: 2.5%;
+    top: 33%;
+  }
+  
+  input {
+    border-radius: 3px;
+    padding-left: 30px;
+    background: var(--light-states-on-background-high-contrast-opacity-012, rgba(33, 33, 33, 0.12));
+  }
+  
+  @media screen and (max-width: 48em) {
+    /* Styles for screens with a maximum width of 48em (768px) */
+    .container1 {
+      justify-content: space-between;
+    }
+  
+    .container2 {
+      display: none;
+    }
+  
+    .innerflex {
+      display: flex;
+      gap: 24px;
+    }
+  
+    input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 48.0625em) and (max-width: 64em) {
+    /* Styles for screens with a width between 48.0625em (769px) and 64em (1024px) */
+    .container1 {
+      justify-content: space-between;
+    }
+  
+    .container2 {
+      display: none;
+    }
+  
+    .innerflex {
+      display: flex;
+      gap: 24px;
+    }
+  
+    input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 64.0625em) and (max-width: 80em) {
+    /* Styles for screens with a width between 64.0625em (1025px) and 80em (1280px) */
+    .container1 {
+      display: none;
+    }
+  
+    .container2 {
+      display: flex;
+      gap: 24px;
+    }
+  
+    input {
+      width: auto;
+    }
+  }
+  
+  @media screen and (min-width: 80.0625em) {
+    /* Styles for screens with a minimum width of 80.0625em (1281px) */
+    .container1 {
+      display: none;
+    }
+  
+    .container2 {
+      display: flex;
+      gap: 24px;
+    }
+  
+    input {
+      width: auto;
+    }
+  }
+  

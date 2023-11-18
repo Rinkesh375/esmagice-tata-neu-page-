@@ -1,0 +1,117 @@
+/* Section.module.css */
+
+.section {
+    width: 85%;
+    margin: 20px auto;
+  }
+  
+  .mainContainer {
+    gap: 8%;
+    align-items: center;
+  }
+  
+  .box1 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    line-height: 15px;
+  }
+  
+  .box1 img {
+    background-color: white;
+  }
+  
+  .img2 {
+    position: absolute;
+    top: 13%;
+    left: 38%;
+    width: 31%;
+  }
+  
+  .innerBox,
+  .innerBox2 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 80%;
+    position: absolute;
+  }
+  
+  .innerBox {
+    background-color: #f4e9fc;
+    top: 30%;
+    left: 10%;
+  }
+  
+  .innerBox2 {
+    background-color: #e9f7ff;
+    bottom: 13%;
+    left: 10%;
+  }
+  
+  .innerBox img,
+  .innerBox2 img {
+    width: 40px;
+  }
+  
+  .innerBox p,
+  .innerBox2 p {
+    font-weight: 500;
+  }
+  
+  .smallBoxes {
+    padding: 9px 20px;
+    border-radius: 25px;
+    gap: 7px;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .box2 {
+    position: relative;
+    min-height: 45vh;
+  }
+  
+  .rangeImg {
+    width: 84%;
+  }
+  
+  .btn {
+    background: var(--1, #8800EC);
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    height: 40px;
+    padding: 8px 55px;
+    text-align: start;
+    position: absolute;
+    bottom: 0%;
+    left: 23%;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .box2 > div {
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .box2 img {
+    width: 9%;
+    margin-top: 6px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .mainContainer {
+      flex-direction: column;
+    }
+  
+    .box1,
+    .box2 {
+      width: 100%;
+    }
+  }
+  

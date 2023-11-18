@@ -1,0 +1,42 @@
+/* Section3.module.css */
+
+.container {
+    background-color: #F8F9FA;
+    padding: 60px 20px; /* Adjust padding for smaller screens */
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .gridItem {
+    margin-bottom: 20px; /* Adjust margin for grid items */
+  }
+  
+  @media screen and (min-width: 48em) {
+    /* Styles for screens with a minimum width of 48em (768px) */
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 64em) {
+    /* Styles for screens with a minimum width of 64em (1024px) */
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 80em) {
+    /* Styles for screens with a minimum width of 80em (1280px) */
+    .container {
+      padding: 60px 50px; /* Restore padding for larger screens if needed */
+    }
+  }
+  
