@@ -1,0 +1,44 @@
+/* Section6.module.css */
+
+/* Base styles */
+.section {
+    width: 85%;
+    margin: 40px auto;
+  }
+  
+  .tabsContainer {
+    border-bottom: 1px solid #CBD5E0;
+    border-left: 1px solid #CBD5E0;
+    border-right: 1px solid #CBD5E0;
+    border-radius: 6px;
+  }
+  
+  .tablist > * {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tabpanel {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tablePanels {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .tablist > * {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .tablist > * {
+      width: 100%;
+    }
+  }
+  

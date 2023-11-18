@@ -1,0 +1,57 @@
+/* Section8.module.css */
+
+.section {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  
+  .btn {
+    background: var(--1, #8800EC);
+    color: white;
+    border-radius: 2px;
+    font-weight: 400;
+    height: 40px;
+    padding: 8px 55px;
+    text-align: start;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Add responsive styles for different devices */
+  @media screen and (max-width: 600px) {
+    .section {
+      width: 90%;
+    }
+  
+    .btn {
+      padding: 8px 30px;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    .section {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 901px) and (max-width: 1200px) {
+    .section {
+      width: 75%;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) and (max-width: 1600px) {
+    .section {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (min-width: 1601px) {
+    .section {
+      width: 65%;
+    }
+  }
+  
